@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Liên hệ với AutoDrive - Đại lý ô tô uy tín hàng đầu"
+    />
+    <title>Liên hệ - AutoDrive</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <!-- Header & Navbar -->
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">
+            <span class="brand-auto">Auto</span
+            ><span class="brand-drive">Drive</span>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html" data-lang="home"
+                  >Trang chủ</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="cars.html" data-lang="cars"
+                  >Danh sách xe</a
+                >
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  data-lang="categories"
+                >
+                  Danh mục xe
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="cars.html?type=sedan"
+                      data-lang="sedan"
+                      >Sedan</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="cars.html?type=suv"
+                      data-lang="suv"
+                      >SUV</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="cars.html?type=hatchback"
+                      data-lang="hatchback"
+                      >Hatchback</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="cars.html?type=luxury"
+                      data-lang="luxury"
+                      >Xe sang</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html" data-lang="about"
+                  >Giới thiệu</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="news.html" data-lang="news"
+                  >Tin tức</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  href="contact.html"
+                  data-lang="contact"
+                  >Liên hệ</a
+                >
+              </li>
+              <li class="nav-item">
+                <button
+                  id="language-switcher"
+                  class="btn btn-sm btn-outline-light ms-2"
+                >
+                  EN <i class="fas fa-globe ms-1"></i>
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header bg-primary text-white py-5 mb-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+            <h1 data-lang="contact-title">Liên hệ</h1>
+            <nav aria-label="breadcrumb">
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item">
+                  <a href="index.html" class="text-white" data-lang="home"
+                    >Trang chủ</a
+                  >
+                </li>
+                <li
+                  class="breadcrumb-item active text-white"
+                  aria-current="page"
+                  data-lang="contact"
+                >
+                  Liên hệ
+                </li>
+              </ol>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+      <div class="container">
+        <div class="row">
+          <!-- Contact Information -->
+          <div class="col-lg-4 mb-4 mb-lg-0">
+            <h2 class="mb-4" data-lang="contact-info">Thông tin liên hệ</h2>
+            <div class="contact-info">
+              <div class="d-flex mb-4">
+                <div class="contact-icon me-3">
+                  <i class="fas fa-map-marker-alt fa-2x text-primary"></i>
+                </div>
+                <div>
+                  <h5 data-lang="contact-address">Địa chỉ</h5>
+                  <p>Đại học Bình Dương</p>
+                </div>
+              </div>
+              <div class="d-flex mb-4">
+                <div class="contact-icon me-3">
+                  <i class="fas fa-phone-alt fa-2x text-primary"></i>
+                </div>
+                <div>
+                  <h5 data-lang="contact-phone">Điện thoại</h5>
+                  <p>(028) 1234 5678</p>
+                  <p data-lang="contact-hotline">Hotline: 0901 234 567</p>
+                </div>
+              </div>
+              <div class="d-flex mb-4">
+                <div class="contact-icon me-3">
+                  <i class="fas fa-envelope fa-2x text-primary"></i>
+                </div>
+                <div>
+                  <h5 data-lang="contact-email">Email</h5>
+                  <p>info@autodrive.com</p>
+                  <p>sales@autodrive.com</p>
+                </div>
+              </div>
+              <div class="d-flex mb-4">
+                <div class="contact-icon me-3">
+                  <i class="fas fa-clock fa-2x text-primary"></i>
+                </div>
+                <div>
+                  <h5 data-lang="contact-workingHours">Giờ làm việc</h5>
+                  <p data-lang="contact-weekdays">
+                    Thứ 2 - Thứ 6: 8:00 - 20:00
+                  </p>
+                  <p data-lang="contact-weekends">
+                    Thứ 7 - Chủ nhật: 8:00 - 18:00
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="social-links mt-4">
+              <h5 data-lang="contact-connectWithUs">Kết nối với chúng tôi</h5>
+              <div class="d-flex mt-3">
+                <a href="#" class="me-3"
+                  ><i class="fab fa-facebook-f fa-2x text-primary"></i
+                ></a>
+                <a href="#" class="me-3"
+                  ><i class="fab fa-twitter fa-2x text-primary"></i
+                ></a>
+                <a href="#" class="me-3"
+                  ><i class="fab fa-instagram fa-2x text-primary"></i
+                ></a>
+                <a href="#" class="me-3"
+                  ><i class="fab fa-youtube fa-2x text-primary"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Contact Form -->
+          <div class="col-lg-8">
+            <div class="card border-0 shadow-sm">
+              <div class="card-body p-4">
+                <h2 class="mb-4" data-lang="contact-sendMessage">
+                  Gửi tin nhắn cho chúng tôi
+                </h2>
+                <form id="contact-form">
+                  <div class="row g-3">
+                    <div class="col-md-6">
+                      <label
+                        for="name"
+                        class="form-label"
+                        data-lang="contact-name"
+                        >Họ và tên</label
+                      >
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="name"
+                        required
+                      />
+                    </div>
+                    <div class="col-md-6">
+                      <label
+                        for="email"
+                        class="form-label"
+                        data-lang="contact-email"
+                        >Email</label
+                      >
+                      <input
+                        type="email"
+                        class="form-control"
+                        id="email"
+                        required
+                      />
+                    </div>
+                    <div class="col-md-6">
+                      <label
+                        for="phone"
+                        class="form-label"
+                        data-lang="contact-phone"
+                        >Số điện thoại</label
+                      >
+                      <input
+                        type="tel"
+                        class="form-control"
+                        id="phone"
+                        required
+                      />
+                    </div>
+                    <div class="col-md-6">
+                      <label
+                        for="subject"
+                        class="form-label"
+                        data-lang="contact-subject"
+                        >Chủ đề</label
+                      >
+                      <select class="form-select" id="subject" required>
+                        <option
+                          value=""
+                          selected
+                          disabled
+                          data-lang="contact-chooseSubject"
+                        >
+                          Chọn chủ đề
+                        </option>
+                        <option value="purchase" data-lang="contact-purchase">
+                          Tư vấn mua xe
+                        </option>
+                        <option value="service" data-lang="contact-service">
+                          Dịch vụ bảo dưỡng
+                        </option>
+                        <option
+                          value="test-drive"
+                          data-lang="contact-testDrive"
+                        >
+                          Đăng ký lái thử
+                        </option>
+                        <option value="feedback" data-lang="contact-feedback">
+                          Góp ý, phản hồi
+                        </option>
+                        <option value="other" data-lang="contact-other">
+                          Khác
+                        </option>
+                      </select>
+                    </div>
+                    <div class="col-12">
+                      <label
+                        for="message"
+                        class="form-label"
+                        data-lang="contact-message"
+                        >Nội dung</label
+                      >
+                      <textarea
+                        class="form-control"
+                        id="message"
+                        rows="5"
+                        required
+                      ></textarea>
+                    </div>
+                    <div class="col-12">
+                      <div class="form-check">
+                        <input
+                          class="form-check-input"
+                          type="checkbox"
+                          id="privacy-policy"
+                          required
+                        />
+                        <label
+                          class="form-check-label"
+                          for="privacy-policy"
+                          data-lang="contact-privacyPolicy"
+                        >
+                          Tôi đồng ý với <a href="#">chính sách bảo mật</a> của
+                          AutoDrive
+                        </label>
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <button
+                        type="submit"
+                        class="btn btn-primary"
+                        data-lang="contact-submit"
+                      >
+                        Gửi tin nhắn
+                      </button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Map Section -->
+    <section id="map" class="py-5 bg-light">
+      <div class="container">
+        <h2 class="text-center mb-5" data-lang="contact-location">
+          Vị trí của chúng tôi
+        </h2>
+        <div class="map-container">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3917.4100651531793!2d106.6700592!3d10.9406358!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3174d61b5a3c483f%3A0x3b0b4f1a0350a0c9!2zVHLGsOG7nW5nIMSQ4bqhaSBo4buNYyBCw6xuaCBExrDGoW5n!5e0!3m2!1svi!2s!4v1712471566553!5m2!1svi!2s"
+            width="100%"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white pt-5 pb-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase mb-4">AutoDrive</h5>
+            <p data-lang="footer-description">
+              Đại lý ô tô hàng đầu tại Việt Nam với hơn 15 năm kinh nghiệm, cung
+              cấp các dòng xe chất lượng cao từ các thương hiệu nổi tiếng.
+            </p>
+            <div class="social-links mt-3">
+              <a href="#" class="text-white me-3"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a href="#" class="text-white me-3"
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a href="#" class="text-white me-3"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a href="#" class="text-white me-3"
+                ><i class="fab fa-youtube"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase mb-4" data-lang="quickLinks">
+              Liên kết nhanh
+            </h5>
+            <ul class="list-unstyled">
+              <li class="mb-2">
+                <a
+                  href="index.html"
+                  class="text-white text-decoration-none"
+                  data-lang="home"
+                  >Trang chủ</a
+                >
+              </li>
+              <li class="mb-2">
+                <a
+                  href="cars.html"
+                  class="text-white text-decoration-none"
+                  data-lang="cars"
+                  >Danh sách xe</a
+                >
+              </li>
+              <li class="mb-2">
+                <a
+                  href="about.html"
+                  class="text-white text-decoration-none"
+                  data-lang="about"
+                  >Giới thiệu</a
+                >
+              </li>
+              <li class="mb-2">
+                <a
+                  href="news.html"
+                  class="text-white text-decoration-none"
+                  data-lang="news"
+                  >Tin tức</a
+                >
+              </li>
+              <li class="mb-2">
+                <a
+                  href="contact.html"
+                  class="text-white text-decoration-none"
+                  data-lang="contact"
+                  >Liên hệ</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase mb-4" data-lang="carCategories">
+              Danh mục xe
+            </h5>
+            <ul class="list-unstyled">
+              <li class="mb-2">
+                <a
+                  href="cars.html?type=sedan"
+                  class="text-white text-decoration-none"
+                  data-lang="sedan"
+                  >Sedan</a
+                >
+              </li>
+              <li class="mb-2">
+                <a
+                  href="cars.html?type=suv"
+                  class="text-white text-decoration-none"
+                  data-lang="suv"
+                  >SUV</a
+                >
+              </li>
+              <li class="mb-2">
+                <a
+                  href="cars.html?type=hatchback"
+                  class="text-white text-decoration-none"
+                  data-lang="hatchback"
+                  >Hatchback</a
+                >
+              </li>
+              <li class="mb-2">
+                <a
+                  href="cars.html?type=luxury"
+                  class="text-white text-decoration-none"
+                  data-lang="luxury"
+                  >Xe sang</a
+                >
+              </li>
+              <li class="mb-2">
+                <a
+                  href="cars.html?type=new"
+                  class="text-white text-decoration-none"
+                  data-lang="common-new"
+                  >Xe mới</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase mb-4" data-lang="contact">Liên hệ</h5>
+            <ul class="list-unstyled">
+              <li class="mb-2">
+                <i class="fas fa-map-marker-alt me-2"></i>
+                <span data-lang="address"
+                  >123 Nguyễn Văn Linh, Quận 7, TP.HCM</span
+                >
+              </li>
+              <li class="mb-2">
+                <i class="fas fa-phone-alt me-2"></i>
+                <span data-lang="phone">(028) 1234 5678</span>
+              </li>
+              <li class="mb-2">
+                <i class="fas fa-envelope me-2"></i>
+                <span data-lang="email">info@autodrive.com</span>
+              </li>
+              <li class="mb-2">
+                <i class="fas fa-clock me-2"></i>
+                <span data-lang="hours">Thứ 2 - Chủ nhật: 8:00 - 20:00</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div
+        class="text-center p-3 mt-3"
+        style="background-color: rgba(0, 0, 0, 0.2)"
+        data-lang="copyright"
+      >
+        © 2023 AutoDrive. Tất cả quyền được bảo lưu.
+      </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a
+      href="#"
+      class="btn btn-primary back-to-top d-flex justify-content-center align-items-center"
+      id="back-to-top"
+    >
+      <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/contact.js"></script>
+    <script src="js/language-switcher.js"></script>
+  </body>
+</html>

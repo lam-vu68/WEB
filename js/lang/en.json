@@ -1,0 +1,272 @@
+{
+  "nav": {
+    "home": "Home",
+    "cars": "Car Listing",
+    "categories": "Car Categories",
+    "sedan": "Sedan",
+    "suv": "SUV",
+    "hatchback": "Hatchback",
+    "luxury": "Luxury",
+    "about": "About Us",
+    "news": "News",
+    "promotion": "Promotions",
+    "contact": "Contact"
+  },
+  "hero": {
+    "slide1": {
+      "title": "Discover Our Luxury Car Collection",
+      "description": "Experience elegance and luxury with our latest models",
+      "button": "View Now"
+    },
+    "slide2": {
+      "title": "Versatile SUVs for All Terrains",
+      "description": "Powerful, durable and safe for all your journeys",
+      "button": "Explore"
+    },
+    "slide3": {
+      "title": "Special Offers This Month",
+      "description": "Up to 10% discount and many attractive gifts",
+      "button": "View Offers"
+    }
+  },
+  "search": {
+    "title": "Find Your Perfect Car",
+    "brand": "Select Brand",
+    "type": "Car Type",
+    "price": "Price Range",
+    "button": "Search"
+  },
+  "featured": {
+    "title": "Featured Cars",
+    "viewAll": "View All Cars",
+    "new": "New",
+    "bestseller": "Best Seller",
+    "details": "Details",
+    "car1": {
+      "title": "Mercedes S-Class 2023",
+      "description": "Luxurious elegance with modern design and advanced technology."
+    },
+    "car2": {
+      "title": "Toyota Land Cruiser 2023",
+      "description": "Powerful and durable, conquering all terrains with superior capability."
+    },
+    "car3": {
+      "title": "Honda Civic 2023",
+      "description": "Sporty design, fuel efficiency and equipped with modern technology."
+    }
+  },
+  "whyChoose": {
+    "title": "Why Choose VTT?",
+    "reason1": {
+      "title": "Diverse Models",
+      "description": "Over 200 car models from leading global brands, meeting all needs and budgets."
+    },
+    "reason2": {
+      "title": "Comprehensive Warranty",
+      "description": "Warranty up to 5 years and attentive, dedicated after-sales service."
+    },
+    "reason3": {
+      "title": "Financial Support",
+      "description": "Various payment methods and bank loan support with preferential interest rates."
+    }
+  },
+  "testimonials": {
+    "title": "What Our Customers Say",
+    "testimonial1": {
+      "text": "I'm very satisfied with the Mercedes GLC I purchased from AutoDrive. The customer service is excellent and the buying process was very convenient.",
+      "author": "John Smith",
+      "position": "CEO of ABC Company"
+    },
+    "testimonial2": {
+      "text": "The consulting team is very enthusiastic and professional. They helped me find the right car for my family's needs and budget.",
+      "author": "Sarah Johnson",
+      "position": "IT Engineer"
+    },
+    "testimonial3": {
+      "text": "The warranty and after-sales service of AutoDrive is truly impressive. I will continue to come back here for my next car purchase.",
+      "author": "Michael Brown",
+      "position": "Entrepreneur"
+    }
+  },
+  "about": {
+    "title": "About AutoDrive",
+    "description1": "AutoDrive is a leading car dealership in Vietnam with over 15 years of experience in the automotive business. We are proud to be the official partner of many renowned car brands worldwide.",
+    "description2": "With a professional and dedicated team, we are committed to providing customers with high-quality products and perfect service.",
+    "button": "Learn More"
+  },
+  "news": {
+    "title": "News & Events",
+    "viewAll": "View All News",
+    "readMore": "Read More",
+    "news1": {
+      "title": "Launch of the Latest Electric Car from Tesla",
+      "description": "Tesla has just launched a new electric car with a range of up to 600km and many breakthrough technology features."
+    },
+    "news2": {
+      "title": "International Auto Show 2023 Coming Soon in Hanoi",
+      "description": "The biggest auto show of the year will be held in June with the participation of over 50 car brands."
+    },
+    "news3": {
+      "title": "Special Promotion on the Occasion of 15th Anniversary",
+      "description": "On the occasion of the 15th anniversary, AutoDrive launches many attractive promotion programs for customers."
+    }
+  },
+  "newsletter": {
+    "title": "Subscribe to Our Newsletter",
+    "description": "Receive the latest information about car models, promotions and special events.",
+    "placeholder": "Your Email",
+    "button": "Subscribe"
+  },
+  "footer": {
+    "description": "Leading car dealership in Vietnam with over 15 years of experience, providing high-quality cars from renowned brands.",
+    "quickLinks": "Quick Links",
+    "carCategories": "Car Categories",
+    "contact": "Contact",
+    "address": "123 Nguyen Van Linh, District 7, Ho Chi Minh City",
+    "phone": "(028) 1234 5678",
+    "email": "info@autodrive.com",
+    "hours": "Mon - Sun: 8:00 - 20:00",
+    "copyright": "© 2023 AutoDrive. All rights reserved."
+  },
+  "common": {
+    "sedan": "Sedan",
+    "suv": "SUV",
+    "hatchback": "Hatchback",
+    "luxury": "Luxury",
+    "new": "New",
+    "petrol": "Petrol",
+    "diesel": "Diesel",
+    "automatic": "Automatic",
+    "backToTop": "Back to Top"
+  },
+  "carListing": {
+    "title": "Car Listing",
+    "filters": "Search Filters",
+    "brand": "Brand",
+    "carType": "Car Type",
+    "priceRange": "Price Range",
+    "year": "Year",
+    "fuel": "Fuel",
+    "apply": "Apply",
+    "reset": "Reset",
+    "showing": "Showing",
+    "of": "of",
+    "cars": "cars",
+    "sortBy": "Sort by:",
+    "newest": "Newest",
+    "priceLowToHigh": "Price: Low to High",
+    "priceHighToLow": "Price: High to Low",
+    "nameAZ": "Name: A-Z",
+    "nameZA": "Name: Z-A",
+    "prev": "Previous",
+    "next": "Next"
+  },
+  "carDetail": {
+    "features": "Key Features",
+    "specifications": "Technical Specifications",
+    "price": "Price",
+    "priceNote": "Price includes VAT, excludes registration fees and taxes",
+    "callNow": "Call Now",
+    "testDrive": "Book a Test Drive",
+    "contactForm": "Contact Us",
+    "name": "Full Name",
+    "phone": "Phone Number",
+    "email": "Email",
+    "message": "Message",
+    "send": "Send Request",
+    "sellerInfo": "Seller Information",
+    "consultant": "Sales Consultant",
+    "relatedCars": "Similar Cars"
+  },
+  "contact": {
+    "title": "Contact",
+    "info": "Contact Information",
+    "address": "Address",
+    "phone": "Phone",
+    "hotline": "Hotline: 0901 234 567",
+    "email": "Email",
+    "workingHours": "Working Hours",
+    "weekdays": "Monday - Friday: 8:00 - 20:00",
+    "weekends": "Saturday - Sunday: 8:00 - 18:00",
+    "connectWithUs": "Connect With Us",
+    "sendMessage": "Send Us a Message",
+    "subject": "Subject",
+    "chooseSubject": "Choose a subject",
+    "purchase": "Car Purchase Consultation",
+    "service": "Maintenance Service",
+    "testDrive": "Test Drive Registration",
+    "feedback": "Feedback",
+    "other": "Other",
+    "privacyPolicy": "I agree to AutoDrive's privacy policy",
+    "location": "Our Location"
+  },
+  "about": {
+    "title": "About Us",
+    "aboutUs": "About AutoDrive",
+    "description1": "AutoDrive is a leading car dealership in Vietnam with over 15 years of experience in the automotive business.",
+    "description2": "Founded in 2008, AutoDrive has quickly become one of the most reputable car dealerships in Vietnam. We are proud to be the official partner of many renowned car brands worldwide such as Mercedes-Benz, BMW, Audi, Toyota, Honda and many other car manufacturers.",
+    "description3": "With a professional and dedicated team, we are committed to providing customers with high-quality products and perfect service, meeting all needs and expectations of customers.",
+    "mission": "Our Mission",
+    "missionText1": "AutoDrive's mission is to provide customers with high-quality cars at reasonable prices, along with dedicated and professional customer care services.",
+    "missionText2": "We are committed to accompanying customers throughout the car ownership process, from advising on choosing the right car to maintenance, warranty and after-sales services.",
+    "vision": "Our Vision",
+    "visionText1": "AutoDrive aims to become the leading car dealership in Vietnam, trusted and chosen by customers when they need to buy a car.",
+    "visionText2": "We continuously strive to improve service quality, expand our dealership network and diversify our product lines to best meet the needs of customers in the increasingly developing automotive market.",
+    "coreValues": "Core Values",
+    "value1": {
+      "title": "Integrity",
+      "description": "We always put integrity first, committed to transparency and honesty in all transactions with customers."
+    },
+    "value2": {
+      "title": "Quality",
+      "description": "We only provide products and services that meet the highest quality standards, ensuring customer satisfaction."
+    },
+    "value3": {
+      "title": "Dedication",
+      "description": "Our team is always dedicated to serving, listening and responding to all customer needs."
+    },
+    "team": "Leadership Team",
+    "partners": "Our Partners",
+    "achievements": "Our Achievements",
+    "carsSold": "Cars Sold",
+    "happyCustomers": "Happy Customers",
+    "awards": "Awards",
+    "showrooms": "Showrooms Nationwide",
+    "showroomSystem": "Showroom System",
+    "viewMap": "View Map",
+    "learnMore": "Want to learn more about AutoDrive?",
+    "contactUs": "Contact us today for free consultation",
+    "contactNow": "Contact Now"
+  },
+  "news": {
+    "title": "News",
+    "search": "Search",
+    "searchPlaceholder": "Enter keywords...",
+    "categories": "Categories",
+    "recentPosts": "Recent Posts",
+    "tags": "Tags",
+    "newsletter": "Subscribe to Newsletter",
+    "newsletterDesc": "Receive the latest information about car models, promotions and special events.",
+    "event": "Event",
+    "technology": "Technology",
+    "promotion": "Promotion",
+    "trend": "Trend",
+    "tips": "Tips",
+    "newProduct": "New Product",
+    "policy": "Policy",
+    "readMore": "Read More",
+    "prev": "Previous",
+    "next": "Next"
+  },
+  "newsDetail": {
+    "comments": "Comments",
+    "leaveComment": "Leave a Comment",
+    "name": "Full Name",
+    "email": "Email",
+    "comment": "Comment",
+    "submit": "Submit Comment",
+    "relatedPosts": "Related Posts",
+    "share": "Share this post:",
+    "tags": "Tags:"
+  }
+}

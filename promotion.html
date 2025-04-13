@@ -1,0 +1,819 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Ưu đãi đặc biệt từ AutoDrive - Đại lý ô tô uy tín hàng đầu"
+    />
+    <title>Ưu đãi đặc biệt - AutoDrive</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <!-- Header & Navbar -->
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">
+            <span class="brand-auto">Auto</span
+            ><span class="brand-drive">Drive</span>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Trang chủ</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="cars.html">Danh sách xe</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                >
+                  Danh mục xe
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="cars.html?type=sedan"
+                      >Sedan</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="cars.html?type=suv">SUV</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="cars.html?type=hatchback"
+                      >Hatchback</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="cars.html?type=luxury"
+                      >Xe sang</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">Giới thiệu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="news.html">Tin tức</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="promotion.html">Ưu đãi</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Liên hệ</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header bg-primary text-white py-5 mb-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+            <h1>Ưu đãi đặc biệt</h1>
+            <nav aria-label="breadcrumb">
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item">
+                  <a href="index.html" class="text-white">Trang chủ</a>
+                </li>
+                <li
+                  class="breadcrumb-item active text-white"
+                  aria-current="page"
+                >
+                  Ưu đãi đặc biệt
+                </li>
+              </ol>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Main Promotion Banner -->
+    <section class="container mb-5">
+      <div class="promotion-banner">
+        <h2>Ưu đãi đặc biệt tháng này</h2>
+        <p>
+          Giảm giá lên đến 10% và nhiều quà tặng hấp dẫn khi mua xe tại
+          AutoDrive từ ngày 01/04 đến 30/04/2023
+        </p>
+
+        <div class="countdown-container">
+          <div class="countdown-box">
+            <div class="number" id="days">15</div>
+            <div class="text">Ngày</div>
+          </div>
+          <div class="countdown-box">
+            <div class="number" id="hours">08</div>
+            <div class="text">Giờ</div>
+          </div>
+          <div class="countdown-box">
+            <div class="number" id="minutes">45</div>
+            <div class="text">Phút</div>
+          </div>
+          <div class="countdown-box">
+            <div class="number" id="seconds">30</div>
+            <div class="text">Giây</div>
+          </div>
+        </div>
+
+        <a href="#promotions" class="btn btn-light btn-lg">Xem các ưu đãi</a>
+      </div>
+    </section>
+
+    <!-- Promotions Section -->
+    <section id="promotions" class="py-5">
+      <div class="container">
+        <h2 class="text-center mb-5">Các chương trình ưu đãi</h2>
+
+        <div class="row g-4">
+          <!-- Promotion 1 -->
+          <div class="col-md-6 col-lg-4">
+            <div class="promotion-card">
+              <div class="position-relative">
+                <div class="discount-circle">-10%</div>
+                <span class="badge bg-danger promotion-badge">Hot</span>
+                <img
+                  src="/placeholder.svg?height=220&width=400"
+                  class="card-img-top"
+                  alt="Ưu đãi Mercedes"
+                />
+                <div class="promotion-timer">
+                  Còn lại: <span>15</span> ngày <span>08</span> giờ
+                </div>
+              </div>
+              <div class="card-body p-4">
+                <h4 class="card-title">Ưu đãi đặc biệt dòng xe Mercedes</h4>
+                <p class="card-text">
+                  Giảm ngay 10% giá trị xe khi mua các dòng xe Mercedes-Benz
+                  trong tháng 4/2023. Tặng kèm gói phụ kiện chính hãng trị giá
+                  50 triệu đồng.
+                </p>
+                <ul class="list-unstyled mb-4">
+                  <li class="mb-2">
+                    <i class="fas fa-check-circle text-success me-2"></i> Áp
+                    dụng cho tất cả các dòng xe Mercedes
+                  </li>
+                  <li class="mb-2">
+                    <i class="fas fa-check-circle text-success me-2"></i> Tặng 1
+                    năm bảo hiểm vật chất
+                  </li>
+                  <li class="mb-2">
+                    <i class="fas fa-check-circle text-success me-2"></i> Hỗ trợ
+                    trả góp lãi suất thấp
+                  </li>
+                </ul>
+                <a href="#" class="btn btn-primary w-100">Tìm hiểu thêm</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Promotion 2 -->
+          <div class="col-md-6 col-lg-4">
+            <div class="promotion-card">
+              <div class="position-relative">
+                <div class="discount-circle">-8%</div>
+                <span class="badge bg-success promotion-badge">Mới</span>
+                <img
+                  src="/placeholder.svg?height=220&width=400"
+                  class="card-img-top"
+                  alt="Ưu đãi Toyota"
+                />
+                <div class="promotion-timer">
+                  Còn lại: <span>15</span> ngày <span>08</span> giờ
+                </div>
+              </div>
+              <div class="card-body p-4">
+                <h4 class="card-title">Khuyến mãi dòng xe Toyota</h4>
+                <p class="card-text">
+                  Giảm ngay 8% giá trị xe khi mua các dòng xe Toyota trong tháng
+                  4/2023. Tặng kèm gói bảo dưỡng 3 năm trị giá 30 triệu đồng.
+                </p>
+                <ul class="list-unstyled mb-4">
+                  <li class="mb-2">
+                    <i class="fas fa-check-circle text-success me-2"></i> Áp
+                    dụng cho các dòng xe Toyota
+                  </li>
+                  <li class="mb-2">
+                    <i class="fas fa-check-circle text-success me-2"></i> Tặng
+                    camera hành trình cao cấp
+                  </li>
+                  <li class="mb-2">
+                    <i class="fas fa-check-circle text-success me-2"></i> Miễn
+                    phí bảo dưỡng 3 năm đầu tiên
+                  </li>
+                </ul>
+                <a href="#" class="btn btn-primary w-100">Tìm hiểu thêm</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Promotion 3 -->
+          <div class="col-md-6 col-lg-4">
+            <div class="promotion-card">
+              <div class="position-relative">
+                <div class="discount-circle">-5%</div>
+                <span class="badge bg-info promotion-badge text-dark"
+                  >Phổ biến</span
+                >
+                <img
+                  src="/placeholder.svg?height=220&width=400"
+                  class="card-img-top"
+                  alt="Ưu đãi Honda"
+                />
+                <div class="promotion-timer">
+                  Còn lại: <span>15</span> ngày <span>08</span> giờ
+                </div>
+              </div>
+              <div class="card-body p-4">
+                <h4 class="card-title">Ưu đãi dòng xe Honda</h4>
+                <p class="card-text">
+                  Giảm ngay 5% giá trị xe khi mua các dòng xe Honda trong tháng
+                  4/2023. Tặng kèm gói phụ kiện chính hãng trị giá 20 triệu
+                  đồng.
+                </p>
+                <ul class="list-unstyled mb-4">
+                  <li class="mb-2">
+                    <i class="fas fa-check-circle text-success me-2"></i> Áp
+                    dụng cho tất cả các dòng xe Honda
+                  </li>
+                  <li class="mb-2">
+                    <i class="fas fa-check-circle text-success me-2"></i> Tặng
+                    thẻ xăng trị giá 10 triệu đồng
+                  </li>
+                  <li class="mb-2">
+                    <i class="fas fa-check-circle text-success me-2"></i> Hỗ trợ
+                    đăng ký, đăng kiểm
+                  </li>
+                </ul>
+                <a href="#" class="btn btn-primary w-100">Tìm hiểu thêm</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Promotion 4 -->
+          <div class="col-md-6 col-lg-4">
+            <div class="promotion-card">
+              <div class="position-relative">
+                <div class="discount-circle">-7%</div>
+                <img
+                  src="/placeholder.svg?height=220&width=400"
+                  class="card-img-top"
+                  alt="Ưu đãi BMW"
+                />
+                <div class="promotion-timer">
+                  Còn lại: <span>15</span> ngày <span>08</span> giờ
+                </div>
+              </div>
+              <div class="card-body p-4">
+                <h4 class="card-title">Khuyến mãi dòng xe BMW</h4>
+                <p class="card-text">
+                  Giảm ngay 7% giá trị xe khi mua các dòng xe BMW trong tháng
+                  4/2023. Tặng kèm gói bảo dưỡng 2 năm trị giá 40 triệu đồng.
+                </p>
+                <ul class="list-unstyled mb-4">
+                  <li class="mb-2">
+                    <i class="fas fa-check-circle text-success me-2"></i> Áp
+                    dụng cho tất cả các dòng xe BMW
+                  </li>
+                  <li class="mb-2">
+                    <i class="fas fa-check-circle text-success me-2"></i> Tặng
+                    gói phụ kiện cao cấp
+                  </li>
+                  <li class="mb-2">
+                    <i class="fas fa-check-circle text-success me-2"></i> Hỗ trợ
+                    trả góp với lãi suất ưu đãi
+                  </li>
+                </ul>
+                <a href="#" class="btn btn-primary w-100">Tìm hiểu thêm</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Promotion 5 -->
+          <div class="col-md-6 col-lg-4">
+            <div class="promotion-card">
+              <div class="position-relative">
+                <div class="discount-circle">-6%</div>
+                <img
+                  src="/placeholder.svg?height=220&width=400"
+                  class="card-img-top"
+                  alt="Ưu đãi Audi"
+                />
+                <div class="promotion-timer">
+                  Còn lại: <span>15</span> ngày <span>08</span> giờ
+                </div>
+              </div>
+              <div class="card-body p-4">
+                <h4 class="card-title">Ưu đãi dòng xe Audi</h4>
+                <p class="card-text">
+                  Giảm ngay 6% giá trị xe khi mua các dòng xe Audi trong tháng
+                  4/2023. Tặng kèm gói bảo hiểm vật chất 2 năm.
+                </p>
+                <ul class="list-unstyled mb-4">
+                  <li class="mb-2">
+                    <i class="fas fa-check-circle text-success me-2"></i> Áp
+                    dụng cho tất cả các dòng xe Audi
+                  </li>
+                  <li class="mb-2">
+                    <i class="fas fa-check-circle text-success me-2"></i> Tặng
+                    gói bảo dưỡng 3 năm
+                  </li>
+                  <li class="mb-2">
+                    <i class="fas fa-check-circle text-success me-2"></i> Hỗ trợ
+                    thủ tục đăng ký xe
+                  </li>
+                </ul>
+                <a href="#" class="btn btn-primary w-100">Tìm hiểu thêm</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Promotion 6 -->
+          <div class="col-md-6 col-lg-4">
+            <div class="promotion-card">
+              <div class="position-relative">
+                <div class="discount-circle">-9%</div>
+                <span class="badge bg-warning promotion-badge text-dark"
+                  >Đặc biệt</span
+                >
+                <img
+                  src="/placeholder.svg?height=220&width=400"
+                  class="card-img-top"
+                  alt="Ưu đãi Ford"
+                />
+                <div class="promotion-timer">
+                  Còn lại: <span>15</span> ngày <span>08</span> giờ
+                </div>
+              </div>
+              <div class="card-body p-4">
+                <h4 class="card-title">Khuyến mãi dòng xe Ford</h4>
+                <p class="card-text">
+                  Giảm ngay 9% giá trị xe khi mua các dòng xe Ford trong tháng
+                  4/2023. Tặng kèm gói phụ kiện chính hãng trị giá 25 triệu
+                  đồng.
+                </p>
+                <ul class="list-unstyled mb-4">
+                  <li class="mb-2">
+                    <i class="fas fa-check-circle text-success me-2"></i> Áp
+                    dụng cho tất cả các dòng xe Ford
+                  </li>
+                  <li class="mb-2">
+                    <i class="fas fa-check-circle text-success me-2"></i> Tặng
+                    bảo hiểm vật chất 1 năm
+                  </li>
+                  <li class="mb-2">
+                    <i class="fas fa-check-circle text-success me-2"></i> Hỗ trợ
+                    đăng ký xe miễn phí
+                  </li>
+                </ul>
+                <a href="#" class="btn btn-primary w-100">Tìm hiểu thêm</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section class="how-it-works">
+      <div class="container">
+        <h2 class="text-center mb-5">Cách nhận ưu đãi</h2>
+
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="step-box">
+              <div class="step-number">1</div>
+              <h4>Chọn xe yêu thích</h4>
+              <p>
+                Tìm và chọn mẫu xe phù hợp với nhu cầu của bạn từ danh sách xe
+                của chúng tôi.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="step-box">
+              <div class="step-number">2</div>
+              <h4>Liên hệ tư vấn</h4>
+              <p>
+                Liên hệ với nhân viên tư vấn của chúng tôi để được hướng dẫn chi
+                tiết về chương trình ưu đãi.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="step-box">
+              <div class="step-number">3</div>
+              <h4>Nhận ưu đãi</h4>
+              <p>
+                Hoàn tất thủ tục mua xe và nhận ngay các ưu đãi hấp dẫn từ
+                AutoDrive.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="py-5">
+      <div class="container">
+        <h2 class="text-center mb-5">Câu hỏi thường gặp</h2>
+
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="accordion" id="faqAccordion">
+              <!-- FAQ Item 1 -->
+              <div class="accordion-item border-0 mb-3 shadow-sm rounded">
+                <h2 class="accordion-header" id="headingOne">
+                  <button
+                    class="accordion-button"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseOne"
+                    aria-expanded="true"
+                    aria-controls="collapseOne"
+                  >
+                    Chương trình ưu đãi có áp dụng cho tất cả các dòng xe không?
+                  </button>
+                </h2>
+                <div
+                  id="collapseOne"
+                  class="accordion-collapse collapse show"
+                  aria-labelledby="headingOne"
+                  data-bs-parent="#faqAccordion"
+                >
+                  <div class="accordion-body">
+                    Các chương trình ưu đãi được áp dụng cho các dòng xe cụ thể
+                    như đã nêu trong mô tả của từng chương trình. Một số chương
+                    trình áp dụng cho tất cả các dòng xe của một thương hiệu,
+                    trong khi các chương trình khác có thể chỉ áp dụng cho một
+                    số mẫu xe nhất định.
+                  </div>
+                </div>
+              </div>
+
+              <!-- FAQ Item 2 -->
+              <div class="accordion-item border-0 mb-3 shadow-sm rounded">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="collapseTwo"
+                  >
+                    Tôi có thể kết hợp nhiều chương trình ưu đãi với nhau không?
+                  </button>
+                </h2>
+                <div
+                  id="collapseTwo"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingTwo"
+                  data-bs-parent="#faqAccordion"
+                >
+                  <div class="accordion-body">
+                    Thông thường, các chương trình ưu đãi không được phép kết
+                    hợp với nhau. Tuy nhiên, trong một số trường hợp đặc biệt,
+                    chúng tôi có thể xem xét việc áp dụng một số ưu đãi cùng
+                    lúc. Vui lòng liên hệ với nhân viên tư vấn của chúng tôi để
+                    biết thêm chi tiết.
+                  </div>
+                </div>
+              </div>
+
+              <!-- FAQ Item 3 -->
+              <div class="accordion-item border-0 mb-3 shadow-sm rounded">
+                <h2 class="accordion-header" id="headingThree">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree"
+                    aria-expanded="false"
+                    aria-controls="collapseThree"
+                  >
+                    Chương trình ưu đãi có thời hạn đến khi nào?
+                  </button>
+                </h2>
+                <div
+                  id="collapseThree"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingThree"
+                  data-bs-parent="#faqAccordion"
+                >
+                  <div class="accordion-body">
+                    Các chương trình ��u đãi hiện tại có thời hạn đến hết ngày
+                    30/04/2023. Tuy nhiên, thời gian có thể thay đổi tùy thuộc
+                    vào từng chương trình cụ thể. Chúng tôi khuyến khích bạn
+                    liên hệ sớm để không bỏ lỡ các ưu đãi hấp dẫn.
+                  </div>
+                </div>
+              </div>
+
+              <!-- FAQ Item 4 -->
+              <div class="accordion-item border-0 mb-3 shadow-sm rounded">
+                <h2 class="accordion-header" id="headingFour">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseFour"
+                    aria-expanded="false"
+                    aria-controls="collapseFour"
+                  >
+                    Tôi có thể đặt cọc trước để được hưởng ưu đãi không?
+                  </button>
+                </h2>
+                <div
+                  id="collapseFour"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingFour"
+                  data-bs-parent="#faqAccordion"
+                >
+                  <div class="accordion-body">
+                    Có, bạn có thể đặt cọc trước để đảm bảo được hưởng ưu đãi
+                    theo chương trình hiện tại. Khi đặt cọc, bạn sẽ được ký hợp
+                    đồng đặt cọc với các điều khoản ưu đãi được ghi rõ, đảm bảo
+                    quyền lợi của bạn ngay cả khi chương trình kết thúc trước
+                    khi bạn nhận xe.
+                  </div>
+                </div>
+              </div>
+
+              <!-- FAQ Item 5 -->
+              <div class="accordion-item border-0 shadow-sm rounded">
+                <h2 class="accordion-header" id="headingFive">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseFive"
+                    aria-expanded="false"
+                    aria-controls="collapseFive"
+                  >
+                    Tôi có thể đăng ký lái thử xe trước khi quyết định mua
+                    không?
+                  </button>
+                </h2>
+                <div
+                  id="collapseFive"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingFive"
+                  data-bs-parent="#faqAccordion"
+                >
+                  <div class="accordion-body">
+                    Tất nhiên, chúng tôi luôn khuyến khích khách hàng đăng ký
+                    lái thử xe trước khi đưa ra quyết định mua. Bạn có thể đăng
+                    ký lái thử trực tiếp tại showroom hoặc thông qua website của
+                    chúng tôi. Nhân viên tư vấn sẽ liên hệ để sắp xếp lịch lái
+                    thử phù hợp với thời gian của bạn.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="py-5 bg-primary text-white">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-8 mb-4 mb-lg-0">
+            <h2 class="fw-bold">
+              Đừng bỏ lỡ cơ hội sở hữu xe mơ ước với giá ưu đãi!
+            </h2>
+            <p class="lead mb-0">
+              Liên hệ với chúng tôi ngay hôm nay để được tư vấn chi tiết
+            </p>
+          </div>
+          <div class="col-lg-4 text-lg-end">
+            <a href="contact.html" class="btn btn-light btn-lg">
+              <i class="fas fa-phone-alt me-2"></i>Liên hệ ngay
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white pt-5 pb-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase mb-4">AutoDrive</h5>
+            <p>
+              Đại lý ô tô hàng đầu tại Việt Nam với hơn 15 năm kinh nghiệm, cung
+              cấp các dòng xe chất lượng cao từ các thương hiệu nổi tiếng.
+            </p>
+            <div class="social-links mt-3">
+              <a href="#" class="text-white me-3"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a href="#" class="text-white me-3"
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a href="#" class="text-white me-3"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a href="#" class="text-white me-3"
+                ><i class="fab fa-youtube"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase mb-4">Liên kết nhanh</h5>
+            <ul class="list-unstyled">
+              <li class="mb-2">
+                <a href="index.html" class="text-white text-decoration-none"
+                  >Trang chủ</a
+                >
+              </li>
+              <li class="mb-2">
+                <a href="cars.html" class="text-white text-decoration-none"
+                  >Danh sách xe</a
+                >
+              </li>
+              <li class="mb-2">
+                <a href="about.html" class="text-white text-decoration-none"
+                  >Giới thiệu</a
+                >
+              </li>
+              <li class="mb-2">
+                <a href="news.html" class="text-white text-decoration-none"
+                  >Tin tức</a
+                >
+              </li>
+              <li class="mb-2">
+                <a href="contact.html" class="text-white text-decoration-none"
+                  >Liên hệ</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase mb-4">Danh mục xe</h5>
+            <ul class="list-unstyled">
+              <li class="mb-2">
+                <a
+                  href="cars.html?type=sedan"
+                  class="text-white text-decoration-none"
+                  >Sedan</a
+                >
+              </li>
+              <li class="mb-2">
+                <a
+                  href="cars.html?type=suv"
+                  class="text-white text-decoration-none"
+                  >SUV</a
+                >
+              </li>
+              <li class="mb-2">
+                <a
+                  href="cars.html?type=hatchback"
+                  class="text-white text-decoration-none"
+                  >Hatchback</a
+                >
+              </li>
+              <li class="mb-2">
+                <a
+                  href="cars.html?type=luxury"
+                  class="text-white text-decoration-none"
+                  >Xe sang</a
+                >
+              </li>
+              <li class="mb-2">
+                <a
+                  href="cars.html?type=new"
+                  class="text-white text-decoration-none"
+                  >Xe mới</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase mb-4">Liên hệ</h5>
+            <ul class="list-unstyled">
+              <li class="mb-2">
+                <i class="fas fa-map-marker-alt me-2"></i> 123 Nguyễn Văn Linh,
+                Quận 7, TP.HCM
+              </li>
+              <li class="mb-2">
+                <i class="fas fa-phone-alt me-2"></i> (028) 1234 5678
+              </li>
+              <li class="mb-2">
+                <i class="fas fa-envelope me-2"></i> info@autodrive.com
+              </li>
+              <li class="mb-2">
+                <i class="fas fa-clock me-2"></i> Thứ 2 - Chủ nhật: 8:00 - 20:00
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div
+        class="text-center p-3 mt-3"
+        style="background-color: rgba(0, 0, 0, 0.2)"
+      >
+        © 2023 AutoDrive. Tất cả quyền được bảo lưu.
+      </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a
+      href="#"
+      class="btn btn-primary back-to-top d-flex justify-content-center align-items-center"
+      id="back-to-top"
+    >
+      <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+      // Countdown Timer
+      function updateCountdown() {
+        // Set the target date (April 30, 2023)
+        const targetDate = new Date("2023-04-30T23:59:59").getTime();
+        const now = new Date().getTime();
+        const timeLeft = targetDate - now;
+
+        // Calculate days, hours, minutes, seconds
+        const days = Math.floor(timeLeft / (1000 * 60 * 60 * 24));
+        const hours = Math.floor(
+          (timeLeft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+        );
+        const minutes = Math.floor((timeLeft % (1000 * 60 * 60)) / (1000 * 60));
+        const seconds = Math.floor((timeLeft % (1000 * 60)) / 1000);
+
+        // Update the countdown display
+        document.getElementById("days").innerText = days
+          .toString()
+          .padStart(2, "0");
+        document.getElementById("hours").innerText = hours
+          .toString()
+          .padStart(2, "0");
+        document.getElementById("minutes").innerText = minutes
+          .toString()
+          .padStart(2, "0");
+        document.getElementById("seconds").innerText = seconds
+          .toString()
+          .padStart(2, "0");
+
+        // Update all promotion timers
+        const timerElements = document.querySelectorAll(
+          ".promotion-timer span"
+        );
+        timerElements.forEach((element, index) => {
+          if (index % 2 === 0) {
+            element.innerText = days;
+          } else {
+            element.innerText = hours;
+          }
+        });
+      }
+
+      // Update the countdown every second
+      setInterval(updateCountdown, 1000);
+
+      // Initial update
+      updateCountdown();
+    </script>
+  </body>
+</html>

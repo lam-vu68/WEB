@@ -1,0 +1,272 @@
+{
+  "nav": {
+    "home": "Trang chủ",
+    "cars": "Danh sách xe",
+    "categories": "Danh mục xe",
+    "sedan": "Sedan",
+    "suv": "SUV",
+    "hatchback": "Hatchback",
+    "luxury": "Xe sang",
+    "about": "Giới thiệu",
+    "news": "Tin tức",
+    "promotion": "Ưu đãi",
+    "contact": "Liên hệ"
+  },
+  "hero": {
+    "slide1": {
+      "title": "Khám phá bộ sưu tập xe sang",
+      "description": "Trải nghiệm đẳng cấp và sự sang trọng với các mẫu xe mới nhất",
+      "button": "Xem ngay"
+    },
+    "slide2": {
+      "title": "SUV đa dụng cho mọi địa hình",
+      "description": "Mạnh mẽ, bền bỉ và an toàn cho mọi chuyến đi",
+      "button": "Khám phá"
+    },
+    "slide3": {
+      "title": "Ưu đãi đặc biệt tháng này",
+      "description": "Giảm giá lên đến 10% và nhiều quà tặng hấp dẫn",
+      "button": "Xem ưu đãi"
+    }
+  },
+  "search": {
+    "title": "Tìm kiếm xe phù hợp",
+    "brand": "Chọn hãng xe",
+    "type": "Loại xe",
+    "price": "Khoảng giá",
+    "button": "Tìm kiếm"
+  },
+  "featured": {
+    "title": "Xe nổi bật",
+    "viewAll": "Xem tất cả xe",
+    "new": "Mới",
+    "bestseller": "Bán chạy",
+    "details": "Chi tiết",
+    "car1": {
+      "title": "Mercedes S-Class 2023",
+      "description": "Sang trọng đẳng cấp với thiết kế hiện đại và công nghệ tiên tiến."
+    },
+    "car2": {
+      "title": "Toyota Land Cruiser 2023",
+      "description": "Mạnh mẽ và bền bỉ, chinh phục mọi địa hình với khả năng vượt trội."
+    },
+    "car3": {
+      "title": "Honda Civic 2023",
+      "description": "Thiết kế thể thao, tiết kiệm nhiên liệu và trang bị công nghệ hiện đại."
+    }
+  },
+  "whyChoose": {
+    "title": "Tại sao chọn VTT?",
+    "reason1": {
+      "title": "Đa dạng mẫu mã",
+      "description": "Hơn 200 mẫu xe từ các thương hiệu hàng đầu thế giới, đáp ứng mọi nhu cầu và ngân sách."
+    },
+    "reason2": {
+      "title": "Bảo hành toàn diện",
+      "description": "Chế độ bảo hành lên đến 5 năm và dịch vụ hậu mãi chu đáo, tận tâm."
+    },
+    "reason3": {
+      "title": "Hỗ trợ tài chính",
+      "description": "Đa dạng phương thức thanh toán và hỗ trợ vay ngân hàng với lãi suất ưu đãi."
+    }
+  },
+  "testimonials": {
+    "title": "Khách hàng nói gì về chúng tôi",
+    "testimonial1": {
+      "text": "Tôi rất hài lòng với chiếc Mercedes GLC mà tôi đã mua từ AutoDrive. Dịch vụ chăm sóc khách hàng tuyệt vời và quy trình mua xe rất thuận tiện.",
+      "author": "Nguyễn Văn A",
+      "position": "Giám đốc công ty ABC"
+    },
+    "testimonial2": {
+      "text": "Đội ngũ tư vấn rất nhiệt tình và chuyên nghiệp. Họ đã giúp tôi tìm được chiếc xe phù hợp với nhu cầu và ngân sách của gia đình.",
+      "author": "Trần Thị B",
+      "position": "Kỹ sư IT"
+    },
+    "testimonial3": {
+      "text": "Chế độ bảo hành và dịch vụ sau bán hàng của AutoDrive thực sự ấn tượng. Tôi sẽ tiếp tục quay lại đây cho lần mua xe tiếp theo.",
+      "author": "Lê Văn C",
+      "position": "Doanh nhân"
+    }
+  },
+  "about": {
+    "title": "Về AutoDrive",
+    "description1": "AutoDrive là đại lý ô tô hàng đầu tại Việt Nam với hơn 15 năm kinh nghiệm trong lĩnh vực kinh doanh xe hơi. Chúng tôi tự hào là đối tác chính thức của nhiều thương hiệu ô tô nổi tiếng trên thế giới.",
+    "description2": "Với đội ngũ nhân viên chuyên nghiệp và tận tâm, chúng tôi cam kết mang đến cho khách hàng những sản phẩm chất lượng cao cùng dịch vụ hoàn hảo.",
+    "button": "Tìm hiểu thêm"
+  },
+  "news": {
+    "title": "Tin tức & Sự kiện",
+    "viewAll": "Xem tất cả tin tức",
+    "readMore": "Đọc tiếp",
+    "news1": {
+      "title": "Ra mắt dòng xe điện mới nhất từ Tesla",
+      "description": "Tesla vừa ra mắt mẫu xe điện mới với phạm vi hoạt động lên đến 600km và nhiều tính năng công nghệ đột phá."
+    },
+    "news2": {
+      "title": "Triển lãm ô tô quốc tế 2023 sắp diễn ra tại Hà Nội",
+      "description": "Triển lãm ô tô lớn nhất năm sẽ được tổ chức vào tháng 6 với sự tham gia của hơn 50 thương hiệu xe hơi."
+    },
+    "news3": {
+      "title": "Chương trình khuyến mãi đặc biệt nhân dịp kỷ niệm 15 năm",
+      "description": "Nhân dịp kỷ niệm 15 năm thành lập, AutoDrive triển khai nhiều chương trình ưu đãi hấp dẫn cho khách hàng."
+    }
+  },
+  "newsletter": {
+    "title": "Đăng ký nhận tin",
+    "description": "Nhận thông tin mới nhất về các mẫu xe, khuyến mãi và sự kiện đặc biệt.",
+    "placeholder": "Email của bạn",
+    "button": "Đăng ký"
+  },
+  "footer": {
+    "description": "Đại lý ô tô hàng đầu tại Việt Nam với hơn 15 năm kinh nghiệm, cung cấp các dòng xe chất lượng cao từ các thương hiệu nổi tiếng.",
+    "quickLinks": "Liên kết nhanh",
+    "carCategories": "Danh mục xe",
+    "contact": "Liên hệ",
+    "address": "123 Nguyễn Văn Linh, Quận 7, TP.HCM",
+    "phone": "(028) 1234 5678",
+    "email": "info@autodrive.com",
+    "hours": "Thứ 2 - Chủ nhật: 8:00 - 20:00",
+    "copyright": "© 2023 AutoDrive. Tất cả quyền được bảo lưu."
+  },
+  "common": {
+    "sedan": "Sedan",
+    "suv": "SUV",
+    "hatchback": "Hatchback",
+    "luxury": "Xe sang",
+    "new": "Xe mới",
+    "petrol": "Xăng",
+    "diesel": "Dầu",
+    "automatic": "Tự động",
+    "backToTop": "Lên đầu trang"
+  },
+  "carListing": {
+    "title": "Danh sách xe",
+    "filters": "Bộ lọc tìm kiếm",
+    "brand": "Hãng xe",
+    "carType": "Loại xe",
+    "priceRange": "Khoảng giá",
+    "year": "Năm sản xuất",
+    "fuel": "Nhiên liệu",
+    "apply": "Áp dụng",
+    "reset": "Đặt lại",
+    "showing": "Hiển thị",
+    "of": "trong số",
+    "cars": "xe",
+    "sortBy": "Sắp xếp theo:",
+    "newest": "Mới nhất",
+    "priceLowToHigh": "Giá: Thấp đến cao",
+    "priceHighToLow": "Giá: Cao đến thấp",
+    "nameAZ": "Tên: A-Z",
+    "nameZA": "Tên: Z-A",
+    "prev": "Trước",
+    "next": "Tiếp"
+  },
+  "carDetail": {
+    "features": "Tính năng nổi bật",
+    "specifications": "Thông số kỹ thuật",
+    "price": "Giá bán",
+    "priceNote": "Giá đã bao gồm VAT, chưa bao gồm phí trước bạ và đăng ký xe",
+    "callNow": "Gọi ngay",
+    "testDrive": "Đăng ký lái thử",
+    "contactForm": "Liên hệ tư vấn",
+    "name": "Họ và tên",
+    "phone": "Số điện thoại",
+    "email": "Email",
+    "message": "Tin nhắn",
+    "send": "Gửi yêu cầu",
+    "sellerInfo": "Thông tin người bán",
+    "consultant": "Chuyên viên tư vấn",
+    "relatedCars": "Xe tương tự"
+  },
+  "contact": {
+    "title": "Liên hệ",
+    "info": "Thông tin liên hệ",
+    "address": "Địa chỉ",
+    "phone": "Điện thoại",
+    "hotline": "Hotline: 0901 234 567",
+    "email": "Email",
+    "workingHours": "Giờ làm việc",
+    "weekdays": "Thứ 2 - Thứ 6: 8:00 - 20:00",
+    "weekends": "Thứ 7 - Chủ nhật: 8:00 - 18:00",
+    "connectWithUs": "Kết nối với chúng tôi",
+    "sendMessage": "Gửi tin nhắn cho chúng tôi",
+    "subject": "Chủ đề",
+    "chooseSubject": "Chọn chủ đề",
+    "purchase": "Tư vấn mua xe",
+    "service": "Dịch vụ bảo dưỡng",
+    "testDrive": "Đăng ký lái thử",
+    "feedback": "Góp ý, phản hồi",
+    "other": "Khác",
+    "privacyPolicy": "Tôi đồng ý với chính sách bảo mật của AutoDrive",
+    "location": "Vị trí của chúng tôi"
+  },
+  "about": {
+    "title": "Giới thiệu",
+    "aboutUs": "Về AutoDrive",
+    "description1": "AutoDrive là đại lý ô tô hàng đầu tại Việt Nam với hơn 15 năm kinh nghiệm trong lĩnh vực kinh doanh xe hơi.",
+    "description2": "Được thành lập vào năm 2008, AutoDrive đã nhanh chóng trở thành một trong những đại lý ô tô uy tín nhất tại Việt Nam. Chúng tôi tự hào là đối tác chính thức của nhiều thương hiệu ô tô nổi tiếng trên thế giới như Mercedes-Benz, BMW, Audi, Toyota, Honda và nhiều hãng xe khác.",
+    "description3": "Với đội ngũ nhân viên chuyên nghiệp và tận tâm, chúng tôi cam kết mang đến cho khách hàng những sản phẩm chất lượng cao cùng dịch vụ hoàn hảo, đáp ứng mọi nhu cầu và mong đợi của khách hàng.",
+    "mission": "Sứ mệnh",
+    "missionText1": "Sứ mệnh của AutoDrive là mang đến cho khách hàng những chiếc xe chất lượng cao với giá cả hợp lý, cùng với dịch vụ chăm sóc khách hàng tận tâm và chuyên nghiệp.",
+    "missionText2": "Chúng tôi cam kết đồng hành cùng khách hàng trong suốt quá trình sở hữu xe, từ việc tư vấn chọn mua xe phù hợp đến các dịch vụ bảo dưỡng, bảo hành và hậu mãi.",
+    "vision": "Tầm nhìn",
+    "visionText1": "AutoDrive hướng đến việc trở thành đại lý ô tô hàng đầu tại Việt Nam, được khách hàng tin tưởng và lựa chọn khi có nhu cầu mua xe.",
+    "visionText2": "Chúng tôi không ngừng nỗ lực nâng cao chất lượng dịch vụ, mở rộng mạng lưới đại lý và đa dạng hóa các dòng sản phẩm để đáp ứng tốt nhất nhu cầu của khách hàng trong thị trường ô tô ngày càng phát triển.",
+    "coreValues": "Giá trị cốt lõi",
+    "value1": {
+      "title": "Uy tín",
+      "description": "Chúng tôi luôn đặt chữ tín lên hàng đầu, cam kết minh bạch và trung thực trong mọi giao dịch với khách hàng."
+    },
+    "value2": {
+      "title": "Chất lượng",
+      "description": "Chúng tôi chỉ cung cấp những sản phẩm và dịch vụ đạt tiêu chuẩn chất lượng cao nhất, đảm bảo sự hài lòng của khách hàng."
+    },
+    "value3": {
+      "title": "Tận tâm",
+      "description": "Đội ngũ nhân viên của chúng tôi luôn tận tâm phục vụ, lắng nghe và đáp ứng mọi nhu cầu của khách hàng."
+    },
+    "team": "Đội ngũ lãnh đạo",
+    "partners": "Đối tác của chúng tôi",
+    "achievements": "Thành tựu của chúng tôi",
+    "carsSold": "Xe đã bán",
+    "happyCustomers": "Khách hàng hài lòng",
+    "awards": "Giải thưởng",
+    "showrooms": "Showroom trên toàn quốc",
+    "showroomSystem": "Hệ thống showroom",
+    "viewMap": "Xem bản đồ",
+    "learnMore": "Bạn muốn tìm hiểu thêm về AutoDrive?",
+    "contactUs": "Liên hệ với chúng tôi ngay hôm nay để được tư vấn miễn phí",
+    "contactNow": "Liên hệ ngay"
+  },
+  "news": {
+    "title": "Tin tức",
+    "search": "Tìm kiếm",
+    "searchPlaceholder": "Nhập từ khóa...",
+    "categories": "Danh mục",
+    "recentPosts": "Bài viết gần đây",
+    "tags": "Thẻ",
+    "newsletter": "Đăng ký nhận tin",
+    "newsletterDesc": "Nhận thông tin mới nhất về các mẫu xe, khuyến mãi và sự kiện đặc biệt.",
+    "event": "Sự kiện",
+    "technology": "Công nghệ",
+    "promotion": "Khuyến mãi",
+    "trend": "Xu hướng",
+    "tips": "Mẹo hay",
+    "newProduct": "Sản phẩm mới",
+    "policy": "Chính sách",
+    "readMore": "Đọc tiếp",
+    "prev": "Trước",
+    "next": "Tiếp"
+  },
+  "newsDetail": {
+    "comments": "Bình luận",
+    "leaveComment": "Để lại bình luận",
+    "name": "Họ và tên",
+    "email": "Email",
+    "comment": "Nội dung bình luận",
+    "submit": "Gửi bình luận",
+    "relatedPosts": "Bài viết liên quan",
+    "share": "Chia sẻ bài viết:",
+    "tags": "Thẻ:"
+  }
+}
