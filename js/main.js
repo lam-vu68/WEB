@@ -1,4 +1,3 @@
-// Chờ toàn bộ nội dung HTML được tải xong thì mới thực hiện đoạn mã bên trong
 document.addEventListener("DOMContentLoaded", () => {
   // ===== Nút "Back to Top" =====
   const backToTopButton = document.getElementById("back-to-top");

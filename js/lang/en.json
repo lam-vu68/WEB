@@ -73,7 +73,7 @@
   "testimonials": {
     "title": "What Our Customers Say",
     "testimonial1": {
-      "text": "I'm very satisfied with the Mercedes GLC I purchased from AutoDrive. The customer service is excellent and the buying process was very convenient.",
+      "text": "I'm very satisfied with the Mercedes GLC I purchased from VTT. The customer service is excellent and the buying process was very convenient.",
       "author": "John Smith",
       "position": "CEO of ABC Company"
     },
@@ -83,14 +83,14 @@
       "position": "IT Engineer"
     },
     "testimonial3": {
-      "text": "The warranty and after-sales service of AutoDrive is truly impressive. I will continue to come back here for my next car purchase.",
+      "text": "The warranty and after-sales service of VTT is truly impressive. I will continue to come back here for my next car purchase.",
       "author": "Michael Brown",
       "position": "Entrepreneur"
     }
   },
   "about": {
-    "title": "About AutoDrive",
-    "description1": "AutoDrive is a leading car dealership in Vietnam with over 15 years of experience in the automotive business. We are proud to be the official partner of many renowned car brands worldwide.",
+    "title": "About VTT",
+    "description1": "VTT is a leading car dealership in Vietnam with over 15 years of experience in the automotive business. We are proud to be the official partner of many renowned car brands worldwide.",
     "description2": "With a professional and dedicated team, we are committed to providing customers with high-quality products and perfect service.",
     "button": "Learn More"
   },
@@ -108,7 +108,7 @@
     },
     "news3": {
       "title": "Special Promotion on the Occasion of 15th Anniversary",
-      "description": "On the occasion of the 15th anniversary, AutoDrive launches many attractive promotion programs for customers."
+      "description": "On the occasion of the 15th anniversary, VTT launches many attractive promotion programs for customers."
     }
   },
   "newsletter": {
@@ -125,8 +125,7 @@
     "address": "123 Nguyen Van Linh, District 7, Ho Chi Minh City",
     "phone": "(028) 1234 5678",
     "email": "info@autodrive.com",
-    "hours": "Mon - Sun: 8:00 - 20:00",
-    "copyright": "© 2023 AutoDrive. All rights reserved."
+    "hours": "Mon - Sun: 8:00 - 20:00"
   },
   "common": {
     "sedan": "Sedan",
@@ -197,20 +196,20 @@
     "testDrive": "Test Drive Registration",
     "feedback": "Feedback",
     "other": "Other",
-    "privacyPolicy": "I agree to AutoDrive's privacy policy",
+    "privacyPolicy": "I agree to VTT's privacy policy",
     "location": "Our Location"
   },
   "about": {
     "title": "About Us",
-    "aboutUs": "About AutoDrive",
-    "description1": "AutoDrive is a leading car dealership in Vietnam with over 15 years of experience in the automotive business.",
-    "description2": "Founded in 2008, AutoDrive has quickly become one of the most reputable car dealerships in Vietnam. We are proud to be the official partner of many renowned car brands worldwide such as Mercedes-Benz, BMW, Audi, Toyota, Honda and many other car manufacturers.",
+    "aboutUs": "About VTT",
+    "description1": "VTT is a leading car dealership in Vietnam with over 15 years of experience in the automotive business.",
+    "description2": "Founded in 2008, VTT has quickly become one of the most reputable car dealerships in Vietnam. We are proud to be the official partner of many renowned car brands worldwide such as Mercedes-Benz, BMW, Audi, Toyota, Honda and many other car manufacturers.",
     "description3": "With a professional and dedicated team, we are committed to providing customers with high-quality products and perfect service, meeting all needs and expectations of customers.",
     "mission": "Our Mission",
-    "missionText1": "AutoDrive's mission is to provide customers with high-quality cars at reasonable prices, along with dedicated and professional customer care services.",
+    "missionText1": "VTT's mission is to provide customers with high-quality cars at reasonable prices, along with dedicated and professional customer care services.",
     "missionText2": "We are committed to accompanying customers throughout the car ownership process, from advising on choosing the right car to maintenance, warranty and after-sales services.",
     "vision": "Our Vision",
-    "visionText1": "AutoDrive aims to become the leading car dealership in Vietnam, trusted and chosen by customers when they need to buy a car.",
+    "visionText1": "VTT aims to become the leading car dealership in Vietnam, trusted and chosen by customers when they need to buy a car.",
     "visionText2": "We continuously strive to improve service quality, expand our dealership network and diversify our product lines to best meet the needs of customers in the increasingly developing automotive market.",
     "coreValues": "Core Values",
     "value1": {
@@ -234,7 +233,7 @@
     "showrooms": "Showrooms Nationwide",
     "showroomSystem": "Showroom System",
     "viewMap": "View Map",
-    "learnMore": "Want to learn more about AutoDrive?",
+    "learnMore": "Want to learn more about VTT?",
     "contactUs": "Contact us today for free consultation",
     "contactNow": "Contact Now"
   },

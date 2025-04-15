@@ -688,6 +688,9 @@ footer .social-links a:hover {
   margin: 0 auto 20px;
 }
 
+.fix-anh {
+  object-fit: cover;
+}
 /* Responsive Styles */
 @media (max-width: 992px) {
   #hero-carousel .carousel-caption h1 {

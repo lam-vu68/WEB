@@ -73,7 +73,7 @@
   "testimonials": {
     "title": "Khách hàng nói gì về chúng tôi",
     "testimonial1": {
-      "text": "Tôi rất hài lòng với chiếc Mercedes GLC mà tôi đã mua từ AutoDrive. Dịch vụ chăm sóc khách hàng tuyệt vời và quy trình mua xe rất thuận tiện.",
+      "text": "Tôi rất hài lòng với chiếc Mercedes GLC mà tôi đã mua từ VTT. Dịch vụ chăm sóc khách hàng tuyệt vời và quy trình mua xe rất thuận tiện.",
       "author": "Nguyễn Văn A",
       "position": "Giám đốc công ty ABC"
     },
@@ -83,14 +83,14 @@
       "position": "Kỹ sư IT"
     },
     "testimonial3": {
-      "text": "Chế độ bảo hành và dịch vụ sau bán hàng của AutoDrive thực sự ấn tượng. Tôi sẽ tiếp tục quay lại đây cho lần mua xe tiếp theo.",
+      "text": "Chế độ bảo hành và dịch vụ sau bán hàng của VTT thực sự ấn tượng. Tôi sẽ tiếp tục quay lại đây cho lần mua xe tiếp theo.",
       "author": "Lê Văn C",
       "position": "Doanh nhân"
     }
   },
   "about": {
-    "title": "Về AutoDrive",
-    "description1": "AutoDrive là đại lý ô tô hàng đầu tại Việt Nam với hơn 15 năm kinh nghiệm trong lĩnh vực kinh doanh xe hơi. Chúng tôi tự hào là đối tác chính thức của nhiều thương hiệu ô tô nổi tiếng trên thế giới.",
+    "title": "Về VTT",
+    "description1": "VTT là đại lý ô tô hàng đầu tại Việt Nam với hơn 15 năm kinh nghiệm trong lĩnh vực kinh doanh xe hơi. Chúng tôi tự hào là đối tác chính thức của nhiều thương hiệu ô tô nổi tiếng trên thế giới.",
     "description2": "Với đội ngũ nhân viên chuyên nghiệp và tận tâm, chúng tôi cam kết mang đến cho khách hàng những sản phẩm chất lượng cao cùng dịch vụ hoàn hảo.",
     "button": "Tìm hiểu thêm"
   },
@@ -108,7 +108,7 @@
     },
     "news3": {
       "title": "Chương trình khuyến mãi đặc biệt nhân dịp kỷ niệm 15 năm",
-      "description": "Nhân dịp kỷ niệm 15 năm thành lập, AutoDrive triển khai nhiều chương trình ưu đãi hấp dẫn cho khách hàng."
+      "description": "Nhân dịp kỷ niệm 15 năm thành lập, VTT triển khai nhiều chương trình ưu đãi hấp dẫn cho khách hàng."
     }
   },
   "newsletter": {
@@ -124,9 +124,8 @@
     "contact": "Liên hệ",
     "address": "123 Nguyễn Văn Linh, Quận 7, TP.HCM",
     "phone": "(028) 1234 5678",
-    "email": "info@autodrive.com",
-    "hours": "Thứ 2 - Chủ nhật: 8:00 - 20:00",
-    "copyright": "© 2023 AutoDrive. Tất cả quyền được bảo lưu."
+    "email": "info@VTT.com",
+    "hours": "Thứ 2 - Chủ nhật: 8:00 - 20:00"
   },
   "common": {
     "sedan": "Sedan",
@@ -197,20 +196,20 @@
     "testDrive": "Đăng ký lái thử",
     "feedback": "Góp ý, phản hồi",
     "other": "Khác",
-    "privacyPolicy": "Tôi đồng ý với chính sách bảo mật của AutoDrive",
+    "privacyPolicy": "Tôi đồng ý với chính sách bảo mật của VTT",
     "location": "Vị trí của chúng tôi"
   },
   "about": {
     "title": "Giới thiệu",
-    "aboutUs": "Về AutoDrive",
-    "description1": "AutoDrive là đại lý ô tô hàng đầu tại Việt Nam với hơn 15 năm kinh nghiệm trong lĩnh vực kinh doanh xe hơi.",
-    "description2": "Được thành lập vào năm 2008, AutoDrive đã nhanh chóng trở thành một trong những đại lý ô tô uy tín nhất tại Việt Nam. Chúng tôi tự hào là đối tác chính thức của nhiều thương hiệu ô tô nổi tiếng trên thế giới như Mercedes-Benz, BMW, Audi, Toyota, Honda và nhiều hãng xe khác.",
+    "aboutUs": "Về VTT",
+    "description1": "VTT là đại lý ô tô hàng đầu tại Việt Nam với hơn 15 năm kinh nghiệm trong lĩnh vực kinh doanh xe hơi.",
+    "description2": "Được thành lập vào năm 2008, VTT đã nhanh chóng trở thành một trong những đại lý ô tô uy tín nhất tại Việt Nam. Chúng tôi tự hào là đối tác chính thức của nhiều thương hiệu ô tô nổi tiếng trên thế giới như Mercedes-Benz, BMW, Audi, Toyota, Honda và nhiều hãng xe khác.",
     "description3": "Với đội ngũ nhân viên chuyên nghiệp và tận tâm, chúng tôi cam kết mang đến cho khách hàng những sản phẩm chất lượng cao cùng dịch vụ hoàn hảo, đáp ứng mọi nhu cầu và mong đợi của khách hàng.",
     "mission": "Sứ mệnh",
-    "missionText1": "Sứ mệnh của AutoDrive là mang đến cho khách hàng những chiếc xe chất lượng cao với giá cả hợp lý, cùng với dịch vụ chăm sóc khách hàng tận tâm và chuyên nghiệp.",
+    "missionText1": "Sứ mệnh của VTT là mang đến cho khách hàng những chiếc xe chất lượng cao với giá cả hợp lý, cùng với dịch vụ chăm sóc khách hàng tận tâm và chuyên nghiệp.",
     "missionText2": "Chúng tôi cam kết đồng hành cùng khách hàng trong suốt quá trình sở hữu xe, từ việc tư vấn chọn mua xe phù hợp đến các dịch vụ bảo dưỡng, bảo hành và hậu mãi.",
     "vision": "Tầm nhìn",
-    "visionText1": "AutoDrive hướng đến việc trở thành đại lý ô tô hàng đầu tại Việt Nam, được khách hàng tin tưởng và lựa chọn khi có nhu cầu mua xe.",
+    "visionText1": "VTT hướng đến việc trở thành đại lý ô tô hàng đầu tại Việt Nam, được khách hàng tin tưởng và lựa chọn khi có nhu cầu mua xe.",
     "visionText2": "Chúng tôi không ngừng nỗ lực nâng cao chất lượng dịch vụ, mở rộng mạng lưới đại lý và đa dạng hóa các dòng sản phẩm để đáp ứng tốt nhất nhu cầu của khách hàng trong thị trường ô tô ngày càng phát triển.",
     "coreValues": "Giá trị cốt lõi",
     "value1": {
@@ -234,7 +233,7 @@
     "showrooms": "Showroom trên toàn quốc",
     "showroomSystem": "Hệ thống showroom",
     "viewMap": "Xem bản đồ",
-    "learnMore": "Bạn muốn tìm hiểu thêm về AutoDrive?",
+    "learnMore": "Bạn muốn tìm hiểu thêm về VTT?",
     "contactUs": "Liên hệ với chúng tôi ngay hôm nay để được tư vấn miễn phí",
     "contactNow": "Liên hệ ngay"
   },
