@@ -123,8 +123,6 @@
     "carCategories": "Danh mục xe",
     "contact": "Liên hệ",
     "address": "Hiệp Thành, Thủ Dầu Một, Bình Dương",
-    "phone": "(028) 1234 5678",
-    "email": "info@VTT.com",
     "hours": "Thứ 2 - Chủ nhật: 8:00 - 20:00"
   },
   "common": {
@@ -182,7 +180,6 @@
     "info": "Thông tin liên hệ",
     "address": "Địa chỉ",
     "phone": "Điện thoại",
-    "hotline": "Hotline: 0901 234 567",
     "email": "Email",
     "workingHours": "Giờ làm việc",
     "weekdays": "Thứ 2 - Thứ 6: 8:00 - 20:00",

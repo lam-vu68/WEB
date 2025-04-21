@@ -696,6 +696,9 @@ footer .social-links a:hover {
 .colo-bl {
   color: #fff;
 }
+.fix-link-footer {
+  color: #fff;
+}
 /* Responsive Styles */
 @media (max-width: 992px) {
   #hero-carousel .carousel-caption h1 {
@@ -715,7 +718,6 @@ footer .social-links a:hover {
   #hero-carousel .carousel-item {
     height: 400px;
   }
-
   .search-container {
     margin-top: 0;
   }

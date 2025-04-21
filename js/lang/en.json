@@ -123,8 +123,6 @@
     "carCategories": "Car Categories",
     "contact": "Contact",
     "address": "Hiệp Thành, Thủ Dầu Một, Bình Dương",
-    "phone": "(028) 1234 5678",
-    "email": "info@autodrive.com",
     "hours": "Mon - Sun: 8:00 - 20:00"
   },
   "common": {
@@ -182,7 +180,6 @@
     "info": "Contact Information",
     "address": "Address",
     "phone": "Phone",
-    "hotline": "Hotline: 0901 234 567",
     "email": "Email",
     "workingHours": "Working Hours",
     "weekdays": "Monday - Friday: 8:00 - 20:00",
