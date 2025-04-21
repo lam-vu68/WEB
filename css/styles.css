@@ -1,6 +1,6 @@
 /* Global Styles */
 :root {
-  --primary-color: #ff4d30; /* Thay đổi màu chính sang màu cam đỏ nổi bật */
+  --primary-color: #ff4d30;
   --secondary-color: #2c3e50;
   --dark-color: #1a1d20;
   --light-color: #f8f9fa;
@@ -32,10 +32,11 @@ h6 {
   color: var(--dark-color);
 }
 .logo-web {
+  font-family: "Dancing Script", cursive;
   font-size: 2rem;
   font-weight: 700;
   color: #fff;
-  letter-spacing: 3px;
+  letter-spacing: 5px;
 }
 .carousel-inner h1 {
   color: #e63b1e;
